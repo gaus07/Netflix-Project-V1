@@ -104,3 +104,18 @@ body{
     transition: 0.2s ease-in-out;
     /* transition-delay: 0.2s; */
 }
+
+.no{
+    display: flex;
+    height: 33vh;
+    overflow-y: hidden;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}   
